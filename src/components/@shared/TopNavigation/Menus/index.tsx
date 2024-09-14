@@ -17,7 +17,7 @@ const Menus = ({menuList}: MenusProps) => {
     setUseMobileDevice(isMobileDevice)
   },[])
 
-  if (!useMobileDevice) {
+  if (useMobileDevice) {
     return <MobileMenus menuList={menuList} />
   }
 
