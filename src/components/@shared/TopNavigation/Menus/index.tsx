@@ -1,7 +1,7 @@
 "use client"
 
 import { Menu } from '@/components/@shared/TopNavigation';
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { isMobileDevice } from '@/utils';
 import MobileMenus from '@/components/@shared/TopNavigation/Menus/MobileMenus';
 import DesktopMenus from '@/components/@shared/TopNavigation/Menus/DesktopMenus';
@@ -11,9 +11,13 @@ export interface MenusProps {
 }
 
 const Menus = ({menuList}: MenusProps) => {
-  const useMobileDevice = useMemo(isMobileDevice, []);
+  const [useMobileDevice, setUseMobileDevice] = useState(false);
 
-  if (useMobileDevice) {
+  useEffect(() => {
+    setUseMobileDevice(isMobileDevice)
+  },[])
+
+  if (!useMobileDevice) {
     return <MobileMenus menuList={menuList} />
   }
 
