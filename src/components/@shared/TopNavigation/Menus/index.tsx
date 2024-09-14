@@ -17,7 +17,7 @@ const Menus = ({menuList}: MenusProps) => {
     return <MobileMenus menuList={menuList} />
   }
 
-  return <DesktopMenus menuList={menuList} />
+  return <DesktopMenus />
 };
 
 export default Menus;
