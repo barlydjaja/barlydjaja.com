@@ -1,6 +1,4 @@
-import { MenusProps } from '@/components/@shared/TopNavigation/Menus';
-
-const DesktopMenus = ({menuList}: MenusProps) => {
+const DesktopMenus = () => {
   return (
     <div>
       desktop menu
