@@ -3,21 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0C0C0C;
+  --foreground: #FFFFFF;
+  --accent: linear-gradient(315.19deg, #55A5FE -33.87%, #A469FF 76.85%, #CC5FB8 114.75%);
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.overlay {
+  @apply fixed w-dvw h-dvh left-0 right-0 top-0 bottom-0;
 }
 
 @layer utilities {

@@ -1,0 +1,20 @@
+.hamburgerMenu {
+    @apply absolute top-16 rounded right-7 shadow-inner py-2;
+    width: calc(100% - 56px);
+    color: #EEEDED66;
+    border: 1px solid white;
+    box-shadow: -5px -5px 250px 0 rgba(255, 255, 255, 0.02) inset;
+    backdrop-filter: blur(20px);
+}
+
+.hamburgerMenu p {
+    @apply px-4 text-[--foreground] rounded;
+}
+
+.hamburgerMenu p:not(:last-child) {
+    @apply mb-2.5;
+}
+
+.hamburgerMenu p:hover {
+    background: var(--accent);
+}

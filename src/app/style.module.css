@@ -1,0 +1,28 @@
+.greeting {
+    @apply rounded-full py-1 px-2.5 flex items-center justify-center mb-2.5 text-2xl font-medium;
+    background:
+            linear-gradient(var(--background) 0 0) padding-box,
+            linear-gradient(to right, rgba(134, 103, 228, 1), rgba(6, 231, 239, 0.91)) border-box;
+    border: 2px solid transparent;
+}
+
+.buttonAccent {
+    @apply rounded-full py-3 px-6 flex items-center justify-center mb-2.5 text-base font-medium;
+    background: var(--accent);
+}
+
+.buttonNormal {
+    @apply rounded-full py-2.5 px-6 flex items-center justify-center mb-2.5 text-base font-medium;
+    background:
+            linear-gradient(var(--background) 0 0) padding-box,
+            linear-gradient(to right, rgba(87, 130, 255, 1), rgba(244, 98, 214, 1)) border-box;
+    border: 2px solid transparent;
+}
+
+.accentText {
+    background: var(--accent);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
