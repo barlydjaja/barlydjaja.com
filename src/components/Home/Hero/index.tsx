@@ -41,7 +41,7 @@ const Hero = () => {
       <section className='flex-1 flex justify-end'>
         <div className='w-80 h-80 flex items-center justify-center'>
           <Image src={ProfilePicture} alt='me' width={320} height={320}
-                 className='border-gradient2 rounded-2xl w-80 h-80 object-cover'/>
+                 className='border-gradient2 rounded-2xl w-80 h-80 object-cover' priority placeholder='blur'/>
         </div>
       </section>
     </main>

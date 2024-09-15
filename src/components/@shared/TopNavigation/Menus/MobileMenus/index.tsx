@@ -1,5 +1,3 @@
-"use client"
-
 import { MenusProps } from '@/components/@shared/TopNavigation/Menus';
 import { useState } from 'react';
 import HamburgerIcon from '@/components/@shared/TopNavigation/Menus/MobileMenus/HamburgerIcon';

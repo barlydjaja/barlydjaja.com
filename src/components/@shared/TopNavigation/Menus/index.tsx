@@ -11,7 +11,7 @@ export interface MenusProps {
 }
 
 const Menus = ({menuList}: MenusProps) => {
-  const [useMobileDevice, setUseMobileDevice] = useState(false);
+  const [useMobileDevice, setUseMobileDevice] = useState(true);
 
   useEffect(() => {
     setUseMobileDevice(isMobileDevice)
