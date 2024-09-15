@@ -14,7 +14,7 @@ const About = () => {
       </section>
 
       {/*RIGHT SECTION*/}
-      <section className='flex-1'>
+      <section className='lg:flex-1'>
         <button
           className='border-gradient2 rounded-full py-1 px-2.5 flex items-center justify-center mb-2 text-2xl font-medium'>
           <span className='text-accent text-xl font-bold'>About Me</span>
