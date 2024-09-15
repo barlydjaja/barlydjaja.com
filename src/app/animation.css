@@ -1,0 +1,44 @@
+.slide-left-to-right1 {
+    left: 100%;
+    animation: slide-left-to-right 30s infinite linear;
+}
+
+.slide-left-to-right2 {
+    left: 100%;
+    animation: slide-left-to-right 30s infinite linear;
+    animation-delay: 7800ms;
+}
+
+.slide-left-to-right3 {
+    left: 100%;
+    animation: slide-left-to-right 30s infinite linear;
+    animation-delay: 10000ms;
+}
+
+.slide-left-to-right4 {
+    left: 100%;
+    animation: slide-left-to-right 30s infinite linear;
+    animation-delay: 17800ms;
+}
+
+.slide-left-to-right5 {
+    left: 100%;
+    animation: slide-left-to-right 30s infinite linear;
+    animation-delay: 20000ms;
+}
+
+.slide-left-to-right6 {
+    left: 100%;
+    animation: slide-left-to-right 30s infinite linear;
+    animation-delay: 27800ms;
+}
+
+@keyframes slide-left-to-right {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: -280px;
+    }
+}

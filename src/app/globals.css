@@ -6,6 +6,9 @@
   --background: #0C0C0C;
   --foreground: #FFFFFF;
   --accent: linear-gradient(315.19deg, #55A5FE -33.87%, #A469FF 76.85%, #CC5FB8 114.75%);
+  --grey: rgba(255, 255, 255, 0.12);
+  --blue: #55A5FE;
+  --text: #B7B7B7;
 }
 
 body {
@@ -13,6 +16,31 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+}
+
+.border-gradient1 {
+  background:
+          linear-gradient(var(--background) 0 0) padding-box,
+          linear-gradient(to right, rgba(134, 103, 228, 1), rgba(6, 231, 239, 0.91)) border-box;
+  border: 2px solid transparent;
+}
+
+.border-gradient2 {
+  background:
+          linear-gradient(var(--background) 0 0) padding-box,
+          linear-gradient(to right, rgba(87, 130, 255, 1), rgba(244, 98, 214, 1)) border-box;
+  border: 2px solid transparent;
+}
+
+.button-accent {
+  @apply flex items-center justify-center;
+  background: var(--accent);
+}
+
+.text-accent {
+  background: var(--accent);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .overlay {

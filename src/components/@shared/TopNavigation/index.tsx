@@ -20,7 +20,7 @@ const menuList: Menu[] = [
 
 const TopNavigation = () => {
   return (
-    <header id="top-navigation" className="flex items-center justify-between w-full h-20 px-7 border-b-[1px] border-b-[#FFFFFF0F] sticky top-0">
+    <header id="top-navigation" className="flex items-center justify-between w-full h-20 px-7 border-b-[1px] border-b-[#FFFFFF0F] sticky top-0 bg-[--background]">
       <HomeLink/>
       <Menus menuList={menuList} />
     </header>
