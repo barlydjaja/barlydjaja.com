@@ -4,7 +4,7 @@ import React from 'react';
 const TiltedBanner = () => {
   return (
     <div
-      className='button-accent flex items-center justify-center h-[52px] relative overflow-hidden shadow-inner text-lg mb-28'>
+      className='button-accent flex items-center justify-center h-[52px] relative overflow-hidden shadow-inner text-lg mb-20'>
       <p className='absolute whitespace-nowrap slide-left-to-right1'>
         Web Developer
       </p>

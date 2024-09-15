@@ -26,7 +26,7 @@ const Hero = () => {
 
         {/*GET STARTED*/}
         <section className='flex flex-wrap items-start justify-start gap-4'>
-          <Link href='https://thereaction.io' target="_blank" className='button-accent rounded-full py-3 px-6 mb-2.5 text-base font-medium'>
+          <Link href='https://thereaction.io' target="_blank" className='button-accent flex items-center justify-center rounded-full py-3 px-6 mb-2.5 text-base font-medium'>
             Get started
           </Link>
 

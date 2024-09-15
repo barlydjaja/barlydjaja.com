@@ -33,8 +33,7 @@ body {
 }
 
 .button-accent {
-  @apply flex items-center justify-center;
-  background: var(--accent);
+  background: var(--accent) !important;
 }
 
 .text-accent {
