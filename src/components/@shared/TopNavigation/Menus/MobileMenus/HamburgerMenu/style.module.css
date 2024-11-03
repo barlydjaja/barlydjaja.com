@@ -7,7 +7,7 @@
 }
 
 .hamburgerMenu p {
-    @apply px-4 text-[--foreground] rounded;
+    @apply text-[--foreground] rounded;
 }
 
 .hamburgerMenu p:not(:last-child) {
@@ -16,4 +16,8 @@
 
 .hamburgerMenu p:hover {
     background: var(--accent);
+}
+
+.hamburgerMenu a {
+    @apply block px-4;
 }

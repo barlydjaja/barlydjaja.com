@@ -9,6 +9,10 @@ export interface Menu {
 
 const menuList: Menu[] = [
   {
+    name: 'Home',
+    link: '/',
+  },
+  {
     name: 'About me',
     link: '/about-me',
   },

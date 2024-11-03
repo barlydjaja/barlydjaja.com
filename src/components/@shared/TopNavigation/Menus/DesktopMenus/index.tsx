@@ -1,8 +1,15 @@
-const DesktopMenus = () => {
+import { MenusProps } from '@/components/@shared/TopNavigation/Menus';
+import NavigationMenu from '@/components/@shared/TopNavigation/Menus/DesktopMenus/NavigationMenu';
+
+const DesktopMenus = ({menuList}: MenusProps) => {
+  console.log(menuList)
   return (
-    <div>
-      desktop menu
-    </div>
+    <>
+      <NavigationMenu menuList={menuList} />
+      <div>
+        desktop menu
+      </div>
+    </>
   );
 };
 
